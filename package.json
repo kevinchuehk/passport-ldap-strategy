@@ -1,0 +1,24 @@
+{
+  "name": "passport-ldap-strategy",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ldapjs": "^2.3.3",
+    "passport-strategy": "^1.0.0"
+  },
+  "keywords": [
+    "ldap",
+    "passport",
+    "strategy"
+  ],
+  "scripts": {
+    "dist": "npx tsc"
+  },
+  "devDependencies": {
+    "@types/ldapjs": "^2.2.2",
+    "@types/passport": "^1.0.9",
+    "@types/passport-strategy": "^0.2.35",
+    "typescript": "^4.7.4"
+  }
+}
